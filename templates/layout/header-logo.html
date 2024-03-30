@@ -1,0 +1,14 @@
+{% load static %}
+<div class="logo-box">
+  <!-- Brand Logo Light -->
+  <a href="{% url 'clientes' %}" class="logo-light">
+    <img src="{% static 'images/logo-mecanica-light.png' %}" alt="logo" class="logo-lg">
+    <img src="{% static 'images/logo-mecanica.png' %}" alt="small logo" class="logo-sm">
+  </a>
+
+  <!-- Brand Logo Dark -->
+  <a href="{% url 'clientes' %}" class="logo-dark">
+    <img src="{% static 'images/logo-mecanica-dark.png' %}" alt="dark logo" class="logo-lg">
+    <img src="{% static 'images/logo-mecanica.png' %}" alt="small logo" class="logo-sm">
+  </a>
+</div>

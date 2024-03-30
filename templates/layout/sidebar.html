@@ -1,0 +1,31 @@
+<ul class="menu">
+  <li class="menu-title">Clientes</li>
+
+  <li class="menu-item">
+    <a href="{% url 'clientes' %}" class="menu-link">
+      <span class="menu-icon"><i data-feather="users"></i></span>
+      <span class="menu-text"> Listar </span>
+    </a>
+  </li>
+  <li class="menu-item">
+    <a href="{% url 'cadastrar-cliente' %}" class="menu-link">
+      <span class="menu-icon"><i data-feather="user-plus"></i></span>
+      <span class="menu-text"> Adicionar </span>
+    </a>
+  </li>
+
+  <li class="menu-title">Serviços</li>
+
+  <li class="menu-item">
+    <a href="{% url 'servicos' %}" class="menu-link">
+      <span class="menu-icon"><i data-feather="search"></i></span>
+      <span class="menu-text"> Pesquisar </span>
+    </a>
+  </li>
+  <li class="menu-item">
+    <a href="{% url 'servicos' %}" class="menu-link">
+      <span class="menu-icon"><i data-feather="file-plus"></i></span>
+      <span class="menu-text"> Novo </span>
+    </a>
+  </li>
+</ul>
